@@ -4,8 +4,11 @@
   "description": "Webdriverio Cucumber Project",
   "main": "index.js",
   "scripts": {
-    "test": "npx wdio run wdio.conf.js",
-    "testr": "npx wdio run wdio.conf.js && npm run GenerateReport",
+    "regression": "npx wdio run wdio.conf.js --suite Regression",
+    "regressionr": "npx wdio run wdio.conf.js && npm run GenerateReport",
+    "login": "npx wdio run wdio.conf.js --suite Login",
+    "product": "npx wdio run wdio.conf.js --suite Product",
+    "checkout": "npx wdio run wdio.conf.js --suite Checkout",
     "GenerateReport": "allure generate allure-results --clean && allure open"
   },
   "author": "Slomo Chacko",

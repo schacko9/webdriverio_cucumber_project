@@ -25,6 +25,12 @@ exports.config = {
         disableWebdriverStepsReporting: false,
         disableWebdriverScreenshotsReporting: false,
     }]],
+    suites: {
+        Login:['features/login.feature'],
+        Product:['features/product.feature'],
+        Checkout:['features/checkout.feature'],
+        Regression:['features/regression.feature']
+    },
     specs: [
         './features/*.feature'
     ],
