@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Error: element (\".modal-body\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "When select correct user and teach",
+        "uid" : "1b3e4873a2fb385b",
+        "parentUid" : "ee886e2fe7e41f46e8658474df480ae5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653769757523,
+          "stop" : 1653769767955,
+          "duration" : 10432
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-101.0.4951.64" ]
+      } ],
+      "uid" : "ee886e2fe7e41f46e8658474df480ae5"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

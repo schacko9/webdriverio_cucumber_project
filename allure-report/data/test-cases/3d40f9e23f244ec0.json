@@ -1,0 +1,70 @@
+{
+  "uid" : "3d40f9e23f244ec0",
+  "name" : "",
+  "fullName" : "E-Commerce Site Functionality: Checkout Page.",
+  "historyId" : "820d7450ca120022ac9176b7d6fc1cdf",
+  "time" : {
+    "start" : 1653769976751,
+    "stop" : 1653769976752,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "E-Commerce Site Functionality: Checkout Page"
+  }, {
+    "name" : "testClass",
+    "value" : "E-Commerce Site Functionality: Checkout Page"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "E-Commerce Site Functionality: Checkout Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.64"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e2f5e9ccac320053",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653769932283,
+        "stop" : 1653769932283,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3d40f9e23f244ec0.json",
+  "parameterValues" : [ "chrome-101.0.4951.64" ]
+}

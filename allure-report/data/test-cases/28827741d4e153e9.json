@@ -1,0 +1,196 @@
+{
+  "uid" : "28827741d4e153e9",
+  "name" : "When I login with rahulshettyacademy and learning",
+  "fullName" : "E-Commerce Site Functionality: Logging onto Website.When I login with rahulshettyacademy and learning",
+  "historyId" : "2e6181196e1e10bbab6784f58b460347",
+  "time" : {
+    "start" : 1653761637857,
+    "stop" : 1653761638011,
+    "duration" : 154
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1653761637858,
+        "stop" : 1653761637865,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d93bcb738f6c353e",
+        "name" : "Request",
+        "source" : "d93bcb738f6c353e.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "c0dc22847720b482",
+        "name" : "Response",
+        "source" : "c0dc22847720b482.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/a68a9a87-04de-45a0-abf7-bdbe577698e0/clear",
+      "time" : {
+        "start" : 1653761637866,
+        "stop" : 1653761637885,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/a68a9a87-04de-45a0-abf7-bdbe577698e0/value",
+      "time" : {
+        "start" : 1653761637885,
+        "stop" : 1653761637939,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a1a0162b6db06048",
+        "name" : "Request",
+        "source" : "a1a0162b6db06048.json",
+        "type" : "application/json",
+        "size" : 34
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1653761637939,
+        "stop" : 1653761637946,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c33b228dbabd99f8",
+        "name" : "Request",
+        "source" : "c33b228dbabd99f8.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "11f678754cd898db",
+        "name" : "Response",
+        "source" : "11f678754cd898db.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/286dd88d-5ce5-4517-ab2a-0a83e8f8348e/clear",
+      "time" : {
+        "start" : 1653761637947,
+        "stop" : 1653761637968,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/286dd88d-5ce5-4517-ab2a-0a83e8f8348e/value",
+      "time" : {
+        "start" : 1653761637968,
+        "stop" : 1653761638011,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b4b0a594e5264ce6",
+        "name" : "Request",
+        "source" : "b4b0a594e5264ce6.json",
+        "type" : "application/json",
+        "size" : 24
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "E-Commerce Site Functionality: Logging onto Website"
+  }, {
+    "name" : "testClass",
+    "value" : "E-Commerce Site Functionality: Logging onto Website"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I login with rahulshettyacademy and learning"
+  }, {
+    "name" : "package",
+    "value" : "E-Commerce Site Functionality: Logging onto Website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.64"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "28827741d4e153e9.json",
+  "parameterValues" : [ "chrome-101.0.4951.64" ]
+}

@@ -1,0 +1,114 @@
+{
+  "uid" : "f0eab64f577cd2da",
+  "name" : "Then should click on Shop Page",
+  "fullName" : "E-Commerce Site Functionality: Product Page.Then should click on Shop Page",
+  "historyId" : "d595f5a9a6de0cf200db65c7c2f59fe7",
+  "time" : {
+    "start" : 1653769912831,
+    "stop" : 1653769932228,
+    "duration" : 19397
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1653769912831,
+        "stop" : 1653769912861,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2eb828a19c6d2e5c",
+        "name" : "Request",
+        "source" : "2eb828a19c6d2e5c.json",
+        "type" : "application/json",
+        "size" : 45
+      }, {
+        "uid" : "b3edd12722802276",
+        "name" : "Response",
+        "source" : "b3edd12722802276.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/34940322-4d0b-4b65-a54d-d1f12049db5f/click",
+      "time" : {
+        "start" : 1653769912867,
+        "stop" : 1653769930219,
+        "duration" : 17352
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "E-Commerce Site Functionality: Product Page"
+  }, {
+    "name" : "testClass",
+    "value" : "E-Commerce Site Functionality: Product Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then should click on Shop Page"
+  }, {
+    "name" : "package",
+    "value" : "E-Commerce Site Functionality: Product Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.64"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f0eab64f577cd2da.json",
+  "parameterValues" : [ "chrome-101.0.4951.64" ]
+}

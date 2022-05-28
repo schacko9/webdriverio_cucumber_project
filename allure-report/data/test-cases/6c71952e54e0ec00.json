@@ -1,0 +1,279 @@
+{
+  "uid" : "6c71952e54e0ec00",
+  "name" : "Then should click on Sign In",
+  "fullName" : "E-Commerce Site Functionality: Logging onto Website.Then should click on Sign In",
+  "historyId" : "94d3b20159716ad41a4511bc564cb43e",
+  "time" : {
+    "start" : 1653769799474,
+    "stop" : 1653769837352,
+    "duration" : 37878
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1653769799474,
+        "stop" : 1653769799481,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8fa94e98b2f36daa",
+        "name" : "Request",
+        "source" : "8fa94e98b2f36daa.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "ca7ac72027a0df92",
+        "name" : "Response",
+        "source" : "ca7ac72027a0df92.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/74f7b208-6252-46d0-8beb-596aec8b69a0/click",
+      "time" : {
+        "start" : 1653769799482,
+        "stop" : 1653769799516,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1653769803519,
+        "stop" : 1653769837189,
+        "duration" : 33670
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fa8ff5947848fceb",
+        "name" : "Request",
+        "source" : "fa8ff5947848fceb.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "15d4b9deb7fbcdbc",
+        "name" : "Response",
+        "source" : "15d4b9deb7fbcdbc.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1653769837228,
+        "stop" : 1653769837297,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a1f78ee7c7885dd7",
+        "name" : "Request",
+        "source" : "a1f78ee7c7885dd7.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "69b7fea26f39ebc1",
+        "name" : "Response",
+        "source" : "69b7fea26f39ebc1.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1653769837297,
+        "stop" : 1653769837317,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "42d3f591cff84cb3",
+        "name" : "Request",
+        "source" : "42d3f591cff84cb3.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "93462f69e54071ad",
+        "name" : "Response",
+        "source" : "93462f69e54071ad.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1653769837333,
+        "stop" : 1653769837338,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ddd6d262a0643535",
+        "name" : "Response",
+        "source" : "ddd6d262a0643535.json",
+        "type" : "application/json",
+        "size" : 15
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1653769837340,
+        "stop" : 1653769837343,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f20618678b97907c",
+        "name" : "Response",
+        "source" : "f20618678b97907c.json",
+        "type" : "application/json",
+        "size" : 15
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "E-Commerce Site Functionality: Logging onto Website"
+  }, {
+    "name" : "testClass",
+    "value" : "E-Commerce Site Functionality: Logging onto Website"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then should click on Sign In"
+  }, {
+    "name" : "package",
+    "value" : "E-Commerce Site Functionality: Logging onto Website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.64"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "66211630b12aab63",
+      "status" : "broken",
+      "statusDetails" : "Error: element (\"*=Checkout\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1653769780386,
+        "stop" : 1653769794528,
+        "duration" : 14142
+      }
+    }, {
+      "uid" : "579ea9257c660164",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1653769767956,
+        "stop" : 1653769767956,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "576d9f6508e3af47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653761640061,
+        "stop" : 1653761669891,
+        "duration" : 29830
+      }
+    }, {
+      "uid" : "362f3da9636f7d67",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1653761636366,
+        "stop" : 1653761636366,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d494bcc34e955a4c",
+      "status" : "broken",
+      "statusDetails" : "Error: element (\"*=Checkout\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1653761614929,
+        "stop" : 1653761629030,
+        "duration" : 14101
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c71952e54e0ec00.json",
+  "parameterValues" : [ "chrome-101.0.4951.64" ]
+}

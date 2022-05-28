@@ -1,0 +1,160 @@
+{
+  "uid" : "8124cac409a24b61",
+  "name" : "When agree to terms and conditions",
+  "fullName" : "E-Commerce Site Functionality: Logging onto Website.When agree to terms and conditions",
+  "historyId" : "539d34dc1efa0292dae4c19c72d62f07",
+  "time" : {
+    "start" : 1653769780311,
+    "stop" : 1653769780386,
+    "duration" : 75
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1653769780312,
+        "stop" : 1653769780322,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "30b56e43156c4f48",
+        "name" : "Request",
+        "source" : "30b56e43156c4f48.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "13271091606c154b",
+        "name" : "Response",
+        "source" : "13271091606c154b.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/17290054-8685-4c38-8ce0-a888e0e9f634/click",
+      "time" : {
+        "start" : 1653769780323,
+        "stop" : 1653769780366,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1653769780366,
+        "stop" : 1653769780374,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "924409cba23538f3",
+        "name" : "Request",
+        "source" : "924409cba23538f3.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "e6c1c2750310c3d4",
+        "name" : "Response",
+        "source" : "e6c1c2750310c3d4.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/c58a7778-fc69-41e1-81ad-fe00c0999af5/text",
+      "time" : {
+        "start" : 1653769780375,
+        "stop" : 1653769780386,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ea317e1cc65428a6",
+        "name" : "Response",
+        "source" : "ea317e1cc65428a6.json",
+        "type" : "application/json",
+        "size" : 37
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "E-Commerce Site Functionality: Logging onto Website"
+  }, {
+    "name" : "testClass",
+    "value" : "E-Commerce Site Functionality: Logging onto Website"
+  }, {
+    "name" : "testMethod",
+    "value" : "When agree to terms and conditions"
+  }, {
+    "name" : "package",
+    "value" : "E-Commerce Site Functionality: Logging onto Website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.64"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8124cac409a24b61.json",
+  "parameterValues" : [ "chrome-101.0.4951.64" ]
+}

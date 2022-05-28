@@ -1,0 +1,114 @@
+{
+  "uid" : "65314b206f7a6ddf",
+  "name" : "When I click on Catageory Link",
+  "fullName" : "E-Commerce Site Functionality: Product Page.When I click on Catageory Link",
+  "historyId" : "2923ed51bb0c78824d25b53e4b787dab",
+  "time" : {
+    "start" : 1653769910301,
+    "stop" : 1653769912831,
+    "duration" : 2530
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1653769910305,
+        "stop" : 1653769910434,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9f93b3e328ae7cc9",
+        "name" : "Request",
+        "source" : "9f93b3e328ae7cc9.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "40300e6e91c93fcb",
+        "name" : "Response",
+        "source" : "40300e6e91c93fcb.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/e5429691-93b5-4661-aaf7-b09cc9ed9458/click",
+      "time" : {
+        "start" : 1653769910445,
+        "stop" : 1653769910829,
+        "duration" : 384
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "E-Commerce Site Functionality: Product Page"
+  }, {
+    "name" : "testClass",
+    "value" : "E-Commerce Site Functionality: Product Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I click on Catageory Link"
+  }, {
+    "name" : "package",
+    "value" : "E-Commerce Site Functionality: Product Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.64"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "65314b206f7a6ddf.json",
+  "parameterValues" : [ "chrome-101.0.4951.64" ]
+}
